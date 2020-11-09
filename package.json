@@ -1,0 +1,30 @@
+{
+  "name": "monitoring-core-web-vitals",
+  "version": "1.0.0",
+  "description": "Example website code that monitors user core web vitals",
+  "main": "server/main.js",
+  "scripts": {
+    "start": "node server/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddhgardner/monitoring-core-web-vitals.git"
+  },
+  "keywords": [
+    "core web vitals",
+    "web vitals",
+    "largest contentful paint",
+    "first input delay",
+    "cumulative layout shift"
+  ],
+  "author": "Todd Gardner <todd@requestmetrics.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toddhgardner/monitoring-core-web-vitals/issues"
+  },
+  "homepage": "https://github.com/toddhgardner/monitoring-core-web-vitals#readme",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
