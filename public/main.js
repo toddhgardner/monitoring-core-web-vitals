@@ -9,7 +9,17 @@
         container.innerHTML = body;
       });
     });
+  })();
 
+  (function asyncContentLoader() {
+    var container = document.querySelector(".js-content");
+    if (!container) { return; }
+
+    fetch("/content").then((resp) => {
+      resp.text().then((body) => {
+        container.innerHTML = body;
+      });
+    });
   })();
 
 })();
