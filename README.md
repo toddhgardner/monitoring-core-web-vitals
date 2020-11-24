@@ -1,2 +1,5 @@
-# monitoring-core-web-vitals
-Example website that monitors Core Web Vital measurements
+# Monitoring Core Web Vitals
+
+This is an example project for showing how to implement a basic performance
+monitoring script to capture Core Web Vitals.
+
