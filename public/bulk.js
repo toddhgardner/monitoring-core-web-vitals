@@ -5,18 +5,6 @@
 
 (function() {
 
-  // Add expensive binding operations
-  window.addEventListener("mousemove", (evt) => {
-    window.slow = 0;
-    while(window.slow < 10000) {
-      window.rand = makeRandomString(32);
-      window.slow++;
-    }
-  });
-  window.addEventListener("click", (evt) => {
-    console.log("user tried to interact with", evt.target);
-  })
-
   // Do lots of work and consume lots of memory
   function makeRandomString(length) {
     var result           = '';
